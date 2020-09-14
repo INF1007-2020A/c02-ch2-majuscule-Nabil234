@@ -1,0 +1,16 @@
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/c02-ch2-majuscule-Nabil234/c02-ch2-majuscule-Nabil234/exercice.py", line 9, in majuscule
+    resultat += chr(letter)
+NameError: name 'letter' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
